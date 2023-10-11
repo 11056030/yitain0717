@@ -55,7 +55,7 @@ ROOT_URLCONF = 'yitain0717.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR / 'templates'], #要連結
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
